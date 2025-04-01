@@ -1,0 +1,99 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+.name{
+    width: 517px;
+    height: 68px;
+    margin-right: 10px;
+}
+
+nav {
+    background-color: #006699;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+    color: white;
+    font-weight: bold;
+}
+header li a{
+    color: white;
+    
+}
+a:-webkit-any-link {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.left-menu, .right-menu {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    background-color:rgb(95, 199, 237) ;
+    border: none;
+    padding: 10px;
+    margin: 5px 0;
+    color: black;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: left;
+    font-family: helvetica ,sans-serif;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #3592A0;
+    color: red;
+}
+
+.photo{
+    width: 63%;
+}
+
+.photo img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.sardarji{
+    width: 85px;
+}
+.logo{
+    width: 91px;
+}
